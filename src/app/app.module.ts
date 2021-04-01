@@ -7,13 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CardsFilmComponent } from './cards-film/cards-film.component';
+import { SobreComponent } from './sobre/sobre.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    CardsFilmComponent
+    CardsFilmComponent,
+    SobreComponent,
+ 
   ],
   imports: [
     BrowserModule,
