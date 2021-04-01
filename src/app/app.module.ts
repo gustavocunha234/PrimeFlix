@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CardsFilmComponent } from './cards-film/cards-film.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { SobreComponent } from './sobre/sobre.component';
     HomeComponent,
     CardsFilmComponent,
     SobreComponent,
+    LoginComponent,
+    RegistroComponent,
  
   ],
   imports: [
