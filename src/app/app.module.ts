@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { FilmesComponent } from './filmes/filmes.component';
 import { SeriesComponent } from './series/series.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { SeriesComponent } from './series/series.component';
     RegistroComponent,
     FilmesComponent,
     SeriesComponent,
+    ContatoComponent,
  
   ],
   imports: [
