@@ -13,6 +13,8 @@ import { RegistroComponent } from './registro/registro.component';
 import { FilmesComponent } from './filmes/filmes.component';
 import { SeriesComponent } from './series/series.component';
 import { ContatoComponent } from './contato/contato.component';
+import { CardsService } from './services/cards.service';
+
 
 
 @NgModule({
@@ -27,6 +29,7 @@ import { ContatoComponent } from './contato/contato.component';
     FilmesComponent,
     SeriesComponent,
     ContatoComponent,
+   
  
   ],
   imports: [
@@ -34,7 +37,7 @@ import { ContatoComponent } from './contato/contato.component';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [CardsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
